@@ -78,8 +78,10 @@ td {
 }
 
 body {
-  background: #222;
-  overflow: hidden;
+  /* background: #222;
+  overflow: hidden; */
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
 }
 
 /***********Menu************/
@@ -106,7 +108,7 @@ nav a {
   text-decoration: none;
   font-size: 24px;
   margin: 0 15px;
-  /* visibility: hidden; */
+  visibility: hidden;
 }
 
 nav img:nth-child(1) {
@@ -120,7 +122,7 @@ nav img:nth-child(3) {
 nav img {
   width: 45px;
   filter: brightness(0) invert(1);
-  /* visibility: hidden; */
+  visibility: hidden;
 }
 .home {
   width: 100%;
@@ -164,12 +166,10 @@ video {
   text-align: center;
   text-transform: uppercase;
   font-size: 70px;
-  /* font-weight: bolder; */
   line-height: 1.1;
-  /* visibility: hidden; */
+  visibility: hidden;
 }
 .home-content .middle-line {
-  height: 100px;
   width: 2px;
   background: #fff;
   margin: 30px auto;
@@ -182,7 +182,7 @@ video {
   display: block;
   margin: 0 auto;
   filter: brightness(0) invert(1);
-  /* visibility: hidden; */
+  visibility: hidden;
 }
 .home-content button {
   display: block;
@@ -194,5 +194,5 @@ video {
   margin: 50px auto 0;
   padding: 16px 30px;
   cursor: pointer;
-  /* visibility: hidden; */
+  visibility: hidden;
 }
