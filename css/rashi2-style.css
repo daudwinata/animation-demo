@@ -1,0 +1,234 @@
+body {
+    margin: 0;
+    padding: 0;
+     background-color: #000; 
+  }
+
+  nav {
+    position: absolute;
+    top: 0;
+    z-index: 200;
+    width: 100%;
+    height: 70px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .container-nav {
+    display: flex;
+  }
+  
+  nav a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 15px;
+    visibility: hidden;
+  }
+  
+  nav a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  nav img:nth-child(1) {
+    margin-right: auto;
+    margin-left: 20px;
+  }
+  nav img:nth-child(3) {
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  nav img {
+    width: 45px;
+    filter: brightness(0) invert(1);
+    visibility: hidden;
+  }
+  .home {
+    width: 100%;
+    height: 100%;
+  }
+
+
+.pin-up {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #000;
+  }
+  
+  
+  
+  .content-wrap{
+    position:relative;
+    width: 333px;
+    height: 222px;
+    border-radius: 4px;
+    background-color: orange;
+    margin-right: 111px;
+    
+  }
+  
+  .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    border-radius: 4px;
+    font-size: 45px;
+    color: green;
+    background-image: url('../images/pizza-base.png');
+    background-size: 100%;
+    font-weight: bold;
+  }
+  
+  
+  
+  .sideline {
+    position: absolute;
+    top: calc(50vh - 111px - 7px);
+    left: calc(50vw + 0px);
+    height: 222px;
+    width: 3px;
+    background-color: orange;
+  
+    transform: scaleY(0);
+    transform-origin: top center;
+    z-index: 1;
+  }
+  
+  
+  
+  .text-wrap {
+    height: 100vh;
+    width: 333px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #000;
+  }
+  
+  .text {
+    font-size: 30px;
+    width: 100px;
+    height: 50px;
+    text-transform: uppercase;
+    color: white;
+    transform-origin: left center;
+    transform: rotate(0.1deg)
+  }
+  
+  
+  
+  .below {
+    height: 100vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: white;
+  }
+  
+  .below span {
+    color: green;
+    font-size: 30px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-50vh);
+  }
+  
+    
+  .footer {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: lightgrey;
+  }
+  
+  
+  .spacer {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background: white;
+  }
+  
+  .spacer span {
+    color: green;
+    font-size: 30px;
+  }
+  
+  
+  .below {
+      background-image: url('https://images.unsplash.com/photo-1574126154517-d1e0d89ef734?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80');
+      background-position: center;
+      background-size: cover;
+      margin: auto;
+      text-align: center;
+  }
+  
+  #text {
+      font-size: 6em;
+      color: #fff;
+  }
+  
+  .one {
+      height: 100vh;
+      width: 100vw;
+      background-image: url('https://images.pexels.com/photos/1563604/pexels-photo-1563604.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+      background-size: 100%;
+  }
+  
+  .one h1 {
+      color: #000;
+      position: absolute;
+      top: 50%;
+      left: 5%;
+      font-size: 4em;
+  }
+  
+  .one p {
+      position: absolute;
+      top: 50%;
+      right: 2%;
+      font-size: 1.5em;
+  }
+  
+  .person-image {
+      height: 100vh;
+      width: 100vw;
+  }
+  
+  .about {
+      display: flex;
+      
+      
+  }
+  
+  .person-image img {
+      height: 500px;
+      position: relative;
+      top:20%;
+      left:50px;
+  }
+  
+  .about-text p {
+      color: #fff;
+      width: 50%;
+  }
+  
+
+  
+  
+    

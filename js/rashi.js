@@ -74,6 +74,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+
+
 var controller = new ScrollMagic.Controller();
 
  
@@ -147,5 +149,26 @@ function reverseTimeline(e) {
   tl.timeScale(1.8);
   tl.reverse();
 }
+
+window.onload = function(){
+  var tl = new TimelineLite({delay: 1}),
+    firstBg = document.querySelectorAll('.text__bg'),
+    word  = document.querySelectorAll('.text__word');
+  
+  tl
+    .to(firstBg, 0.4, {scaleX:1.1})
+    .to(word, 0.2, {opacity:1}, "-=0.1")  
+    .to(firstBg, 0.4, {scaleX:0})
+}
+
+// new
+
+
+
+
+
+
+
+
 
 

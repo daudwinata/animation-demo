@@ -259,36 +259,14 @@ footer {
   height: 30%;
   margin-top: -13rem;
  
-} */
+} 
 
-/* Gallery */
-
- .parallax-section{
-  width: 100%;
-  height: 300px;
-  box-sizing: border-box;
-  padding: 50px;
-  background-color: rgb(230, 230, 230);
-  font-family: sans-serif;
-  font-size: 48px;
-}
-
-.parallax {
-  background-image: url("https://images.pexels.com/photos/845812/pexels-photo-845812.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  background-size: 100%;
-  background-size: cover;
-  background-position-x: 50%;
-	background-position-y: 50%;
-  background-attachment: fixed;
-	-webkit-transform: scale(1.1);	
-          transform: scale(1.1);
-          
-}  
+ 
 
 
-/* Gallery */
 
-#first-section{
+
+/* #first-section{
   height: 100vh;
   width: 100%;
 }
@@ -451,8 +429,16 @@ li {
   font-size: 0.8em;
   text-align: center;
   color:#fff;
-}
+} */
 
-nav a, nav img {
+ nav a, nav img {
   visibility: inherit;
 }
+
+
+#discover-btn:hover {
+  text-decoration: none;
+} 
+
+/* new */
+
